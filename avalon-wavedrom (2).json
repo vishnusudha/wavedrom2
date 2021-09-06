@@ -1,0 +1,11 @@
+{signal: [
+  {name: "clk",         wave: "p.|....|.."},
+  {name: "address",     wave: "x3|.x3|.x",  data:["address"]},
+  {name: "byteenable",  wave: "x3|.x3|.x",  data:["byteenable"]},
+  {name: "read",        wave: "01|..0.|.."},
+  {name: "write",       wave: "0.|...1|.0"},
+  {name: "wait_request",wave: "01|.0.1|.0"},
+  {name: "readdata",    wave: "x.|3.x.|.." ,data:["readdata"]},
+  {name: "response",    wave: "x.|3.x.|.." ,data:["response"]},
+  {name: "writedata",   wave: "xx|..3.|.x" ,data:["writedata"]},
+]}
